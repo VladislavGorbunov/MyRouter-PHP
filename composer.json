@@ -1,0 +1,16 @@
+{
+    "name": "vlad/router",
+    "autoload": {
+        "psr-4": {
+            "Vlad\\Router\\": "classes/",
+            "Vlad\\Controllers\\": "Controllers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vlad"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
