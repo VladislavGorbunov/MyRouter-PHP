@@ -2,6 +2,6 @@
 
 // Добавление роутов в файл config/routes.php
 
-// Обращение к /contacts вызывает метод index класса ContactsController
+// Обращение к /contacts вызывает метод index класса ContactsController <br>
 Router::get('/contacts', 'ContactsController::index'); 
 Router::get('/posts/([0-9]+)/([0-9]+)/([0-9]+)', 'PostsController::index');
